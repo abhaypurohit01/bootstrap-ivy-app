@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+.my-main-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom:0px;
+    z-index: 9; 
+}
+
+ul.right-dropmenu .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+.sidebar{
+    background-color: #ffffff;
+}
+
+.sidebar ul.menu{
+    padding:0px;
+}
+.sidebar ul.menu>li{
+    padding:0px;
+}
+.sidebar ul.menu>li>span, .sidebar ul.menu>li>ul>li>a{
+    padding:0px 15px;
+}
+.sidebar ul.menu>li>ul>li:hover>a{
+    background-color: #D9230F
+}
+.sidebar ul.menu>li>ul>li:hover>a{
+    color:#ffffff;
+}
